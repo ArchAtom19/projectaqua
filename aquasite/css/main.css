@@ -5,6 +5,7 @@ body{
     padding: 0 0 0 0;
     background-color: white;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 1.15em;
 }
 
 nav{
@@ -27,6 +28,8 @@ nav{
     font-weight: bold;
     font-size: 18pt;
     padding: 6px 0 6px 0;
+    margin: 8px;
+    box-shadow: 0 0 7px rgb(13, 167, 255);
 }
 
 @media only screen and (max-width: 600px){
@@ -79,16 +82,19 @@ header{
 }
 
 .aquaPageTitle{
+    display: block;
     font-weight: bold;
     font-size: 1.9em;
     text-decoration: underline;
     text-decoration-color: rgb(13, 167, 255);
-    text-decoration-style: wavy;
-    text-align: center;
 }
 
 #mainArea{
     width: 80%;
     margin: 0 auto 0 auto;
     padding: 7px;
+}
+
+p{
+    line-height: 125%;
 }
