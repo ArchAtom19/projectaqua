@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: white;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+nav{
+    margin: 0 auto 0 auto;
+    width: 100%;
+}
+
+#aquaNavBarMain{
+    margin: 12px auto 12px auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+    border-top: 2px rgb(13, 167, 255) solid;
+    border-bottom: 2px rgb(13, 167,255) solid;
+}
+
+.aquaNavBarButton{
+    display: inline-block;
+    width: 20%;
+    font-weight: bold;
+    font-size: 18pt;
+    padding: 6px 0 6px 0;
+}
+
+.aquaNavBarButton:hover{
+    background: rgba(13, 67, 255, 0.5); /* For older browsers. */
+    background: radial-gradient(ellipse at bottom, rgb(13, 167, 255), rgba(13, 167, 255, 0) 20%), radial-gradient(ellipse at top, rgb(13, 167, 255), rgba(13, 167, 255, 0) 20%);
+}
+
+header{
+    display: inline-block;
+    margin: 0 0 0 0;
+    width: auto;
+    background: white;
+    background: linear-gradient(hsl(202, 95%, 80%), rgba(255, 255, 255, 0));
+}
+
+#headerContainer{
+    vertical-align: top;
+}
+
+#aquaLogo{
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    margin-right: 7px;
+}
+
+#aquaLogoText{
+    display: inline-block;
+    width: 90%;
+    height: 90%;
+    
+}
+
+.aquaPageTitle{
+    font-weight: bold;
+    font-size: 1.9em;
+    text-decoration: underline;
+    text-decoration-color: rgb(13, 167, 255);
+    text-decoration-style: wavy;
+    text-align: center;
+}
+
+#mainArea{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding: 7px;
+}
