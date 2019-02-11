@@ -15,7 +15,9 @@ nav{
 
 #aquaNavBarMain{
     margin: 12px auto 12px auto;
-    display: block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     width: 80%;
     text-align: center;
     border-top: 2px rgb(13, 167, 255) solid;
@@ -23,8 +25,8 @@ nav{
 }
 
 .aquaNavBarButton{
-    display: inline-block;
-    width: 20%;
+    flex-basis: 0;
+    flex: 1 1 0;
     font-weight: bold;
     font-size: 18pt;
     padding: 6px 0 6px 0;
@@ -123,4 +125,69 @@ p{
 
 .aquaTeamRole{
     font-size: 0.8em;
+}
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+}
+
+footer p{
+    line-height: 50%;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: gold;
+}
+
+footer a:visited{
+    color: white;
+}
+
+.aquaFooterBoxes{
+    padding: 15px;
+}
+
+#aquaFooterLinks{
+    border-right: 2px rgb(13, 167, 255) solid;
+}
+
+#aquaSocialIcons{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+}
+
+.socialIcon{
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    padding: 2px;
+}
+
+#aquaFB{
+    background-image: url(/img/socialIconFacebookWhite.png);
+}
+
+#aquaTW{
+    background-image: url(/img/socialIconTwitterWhite.png);
+}
+
+#aquaFB:hover{
+    background-image: url(/img/socialIconFacebook.png);
+}
+
+#aquaTW:hover{
+    background-image: url(/img/socialIconTwitter.png);
 }

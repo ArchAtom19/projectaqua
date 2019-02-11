@@ -9,8 +9,9 @@ echo '<header>
     <nav>
         <div id="aquaNavBarMain">
             <div class="aquaNavBarButton"><span class="aquaNavBarButtonText">HOME</span></div>
+            <div class="aquaNavBarButton"><span class="aquaNavBarButtonText">DATA</span></div>
             <div class="aquaNavBarButton"><span class="aquaNavBarButtonText">ABOUT US</span></div>
-            <div class="aquaNavBarButton"><span class="aquaNavBarButtonText">LOCATION</span></div>
+            <div class="aquaNavBarButton"><span class="aquaNavBarButtonText">OUR UNITS</span></div>
             <div class="aquaNavBarButton"><span class="aquaNavBarButtonText">CONTACT US</span></div>
         </div>
     </nav>'
