@@ -53,4 +53,5 @@
         </div>
     </body>
     
+    <?php include("include/pageFooter.php"); ?>
 </html>

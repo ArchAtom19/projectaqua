@@ -8,11 +8,11 @@ echo '<header>
     
     <nav>
         <div id="aquaNavBarMain">
-            <div class="aquaNavBarButton"><span class="aquaNavBarButtonText">HOME</span></div>
-            <div class="aquaNavBarButton"><span class="aquaNavBarButtonText">DATA</span></div>
-            <div class="aquaNavBarButton"><span class="aquaNavBarButtonText">ABOUT US</span></div>
-            <div class="aquaNavBarButton"><span class="aquaNavBarButtonText">OUR UNITS</span></div>
-            <div class="aquaNavBarButton"><span class="aquaNavBarButtonText">CONTACT US</span></div>
+            <a class="aquaNavBarButton" href="index.php"><div><span class="aquaNavBarButtonText">HOME</span></div></a>
+            <a class="aquaNavBarButton" href="data.php"><div><span class="aquaNavBarButtonText">DATA</span></div></a>
+            <a class="aquaNavBarButton" href="aboutus.php"><div><span class="aquaNavBarButtonText">ABOUT US</span></div></a>
+            <a class="aquaNavBarButton" href="units.php"><div><span class="aquaNavBarButtonText">OUR UNITS</span></div></a>
+            <a class="aquaNavBarButton" href="contact.php"><div><span class="aquaNavBarButtonText">CONTACT US</span></div></a>
         </div>
     </nav>'
 ?>
