@@ -14,7 +14,7 @@ function unitToggle(unit){
         expanded[unit - 1] = true;
         
         buttonAlter.src = `../img/aquaButtonShrink.png`;
-        resultShow.style.display = "flex";
+        resultShow.style.display = "block";
     }
     else{
         //Pretty much the reverse of the above.
