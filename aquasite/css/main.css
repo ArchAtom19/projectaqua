@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
 
+html{
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+}
+
 body{
+    position: relative;
     margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    padding: 0 0 220px 0;
     background-color: white;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 1.15em;
+    height: 100%;
 }
 
 nav{
@@ -142,6 +150,8 @@ footer{
     padding: 10px 0 10px 0;
     position: absolute;
     bottom: 0;
+    height: 200px;
+    border-bottom: 5px black solid;
 }
 
 footer p{
@@ -198,4 +208,42 @@ footer a:hover{
 
 #aquaTW:hover{
     background-image: url(/img/socialIconTwitter.png);
+}
+
+#aquaUnitReadings{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.aquaReadingsTextHeader{
+    font-size: 1.75em;
+    font-weight: bold;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.aquaUnitReadingBox{
+    display: inherit;
+    padding: 10px;
+    flex-flow: column wrap;
+    background-color: rgb(116, 204, 255);
+    border: 2px rgb(13, 167, 255) solid;
+    border-radius: 12px;
+    margin: 6px 0 6px 0;
+}
+
+.aquaUnitReadingBoxHeader{
+    display: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aquaUnitResultsTableDiv{
+    display: none;
+    width: 90%;
+    border-top: 2px rgb(13, 167, 255) solid;
+    flex-wrap: none;
+}
+
+.ARTB{
+    cursor: pointer;
 }
