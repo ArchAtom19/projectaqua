@@ -11,9 +11,7 @@
     <?php include("include/logoHeader.php"); ?>
     
     <body>
-        <div id="mainArea">
-            
-        </div>
+
     </body>
     
     <?php include("include/pageFooter.php"); ?>

@@ -23,10 +23,10 @@ nav{
 
 #aquaNavBarMain{
     margin: 12px auto 12px auto;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     width: 80%;
+    display: flex;
+    justify-content: center; 
+    flex-flow: row wrap;
     text-align: center;
     border-top: 2px rgb(13, 167, 255) solid;
     border-bottom: 2px rgb(13, 167,255) solid;
@@ -54,6 +54,7 @@ nav{
         display: block;
         border: 2px rgb(13, 167, 255) solid;
         width: 100%;
+        flex: 1 1 0;
     }
     
     #aquaNavBarMain{
