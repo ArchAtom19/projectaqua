@@ -7,11 +7,12 @@
         <meta name="description" content="Welcome to PROJECT AQUA.">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/unitControl.js"></script>
+        <script src="js/hideBoxes.js"></script>
     </head>
     
     <?php include("include/logoHeader.php"); ?>
     
-    <body>
+    <body onLoad="hB()">
         <div id="mainArea">
             <section>
                 <h1 class="aquaPageTitle">Our Latest Readings</h1>
@@ -22,45 +23,45 @@
                 <div class="aquaUnitReadingBox">
                     <div class="aquaUnitReadingBoxHeader">
                         <span class="aquaReadingsTextHeader">UNIT 1</span>
-                        <img class="ARTB" id="toggleButton1" src="img/aquaButtonExpand.png" onclick="unitToggle(1)"/>
+                        <img class="ARTB" id="toggleButton1" src="img/aquaButtonExpand.png" alt="Expand" onclick="unitToggle(1)"/>
                     </div>
-                    <div class="aquaUnitResultsTableDiv" id="aquaUnitResults1">
+                    <div class="aquaUnitResultsTableDiv" name="rBox" id="aquaUnitResults1">
 
                     </div>
                 </div>
                 <div class="aquaUnitReadingBox">
                     <div class="aquaUnitReadingBoxHeader">
                         <span class="aquaReadingsTextHeader">UNIT 2</span>
-                        <img class="ARTB" id="toggleButton2" src="img/aquaButtonExpand.png" onclick="unitToggle(2)"/>
+                        <img class="ARTB" id="toggleButton2" src="img/aquaButtonExpand.png" alt="Expand" onclick="unitToggle(2)"/>
                     </div>
-                    <div class="aquaUnitResultsTableDiv" id="aquaUnitResults2">
+                    <div class="aquaUnitResultsTableDiv" name="rBox" id="aquaUnitResults2">
 
                     </div>                    
                 </div>
                 <div class="aquaUnitReadingBox">
                     <div class="aquaUnitReadingBoxHeader">
                         <span class="aquaReadingsTextHeader">UNIT 3</span>
-                        <img class="ARTB" id="toggleButton3" src="img/aquaButtonExpand.png" onclick="unitToggle(3)"/>
+                        <img class="ARTB" id="toggleButton3" src="img/aquaButtonExpand.png" alt="Expand" onclick="unitToggle(3)"/>
                     </div>
-                    <div class="aquaUnitResultsTableDiv" id="aquaUnitResults3">
+                    <div class="aquaUnitResultsTableDiv" name="rBox" id="aquaUnitResults3">
                         
                     </div>
                 </div>
                 <div class="aquaUnitReadingBox">
                     <div class="aquaUnitReadingBoxHeader">
                         <span class="aquaReadingsTextHeader">UNIT 4</span>
-                        <img class="ARTB" id="toggleButton4" src="img/aquaButtonExpand.png" onclick="unitToggle(4)"/>
+                        <img class="ARTB" id="toggleButton4" src="img/aquaButtonExpand.png" alt="Expand" onclick="unitToggle(4)"/>
                     </div>
-                    <div class="aquaUnitResultsTableDiv" id="aquaUnitResults4">
+                    <div class="aquaUnitResultsTableDiv" name="rBox" id="aquaUnitResults4">
 
                     </div>
                 </div>
                 <div class="aquaUnitReadingBox">
                     <div class="aquaUnitReadingBoxHeader">
                         <span class="aquaReadingsTextHeader">UNIT 5</span>
-                        <img class="ARTB" id="toggleButton5" src="img/aquaButtonExpand.png" onclick="unitToggle(5)"/>
+                        <img class="ARTB" id="toggleButton5" src="img/aquaButtonExpand.png" alt="Expand" onclick="unitToggle(5)"/>
                     </div>
-                    <div class="aquaUnitResultsTableDiv" id="aquaUnitResults5">
+                    <div class="aquaUnitResultsTableDiv" name="rBox" id="aquaUnitResults5">
                         <p>TEST</p><br />
                         <p>TEST</p><br />
                         <p>TEST</p><br />
