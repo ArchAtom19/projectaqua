@@ -26,7 +26,96 @@
                         <img class="ARTB" id="toggleButton1" src="img/aquaButtonExpand.png" alt="Expand" onclick="unitToggle(1)"/>
                     </div>
                     <div class="aquaUnitResultsTableDiv" name="rBox" id="aquaUnitResults1">
-
+                        <form action="include/unit1Display.php" method="post">
+                            <table border="2" class="aquaURT" id="URT1">
+                                <tr>
+                                    <th>ReadingID</th>
+                                    <th>DateTimeStamp</th>
+                                    <th>UnitID</th>
+                                    <th>Temperature</th>
+                                    <th>Air Pressure</th>
+                                    <th class="hovertip"><span class="aquaTTHover" id="o3TH">O&#x00B3</span>
+                                        <div class="aquaUnitTooltip" name="ozoneTT">Ozone</div>
+                                    </th>
+                                    <th class="hovertip"><span class="aquaTTHover" id="no2TH">NO&#x00B2</span>
+                                        <div class="aquaUnitTooltip" name="nitrogendioxideTT">Nitrogen Dioxide</div>
+                                    </th>
+                                    <th class="hovertip"><span class="aquaTTHover" id="so2TH">SO&#x00B2</span>
+                                        <div class="aquaUnitTooltip" name="sulphurdioxideTT">Sulphur Dioxide</div>
+                                    </th>
+                                    <th class="hovertip"><span class="aquaTTHover" id="coTH">CO</span>
+                                        <div class="aquaUnitTooltip" name="carbonmonoxideTT">Carbon Monoxide</div>
+                                    </th>
+                                    <th>PM25</th>
+                                    <th>PM10</th>
+                                </tr>
+                                <tr>
+                                    <td name="u1r1f1"></td>
+                                    <td name="u1r1f2"></td>
+                                    <td name="u1r1f3"></td>
+                                    <td name="u1r1f4"></td>
+                                    <td name="u1r1f5"></td>
+                                    <td name="u1r1f6"></td>
+                                    <td name="u1r1f7"></td>
+                                    <td name="u1r1f8"></td>
+                                    <td name="u1r1f9"></td>
+                                    <td name="u1r1f10"></td>
+                                    <td name="u1r1f11"></td>                                                                                         
+                                </tr>
+                                <tr>
+                                    <td name="u1r2f1"></td>
+                                    <td name="u1r2f2"></td>
+                                    <td name="u1r2f3"></td>
+                                    <td name="u1f2f4"></td>
+                                    <td name="u1r2f5"></td>
+                                    <td name="u1r2f6"></td>
+                                    <td name="u1r2f7"></td>
+                                    <td name="u1r2f8"></td>
+                                    <td name="u1r2f9"></td>
+                                    <td name="u1r2f10"></td>
+                                    <td name="u1r2f11"></td>                                                                                         
+                                </tr>
+                                <tr>
+                                    <td name="u1r3f1"></td>
+                                    <td name="u1r3f2"></td>
+                                    <td name="u1r3f3"></td>
+                                    <td name="u1r3f4"></td>
+                                    <td name="u1r3f5"></td>
+                                    <td name="u1r3f6"></td>
+                                    <td name="u1r3f7"></td>
+                                    <td name="u1r3f8"></td>
+                                    <td name="u1r3f9"></td>
+                                    <td name="u1r3f10"></td>
+                                    <td name="u1r3f11"></td>                                                                                         
+                                </tr>
+                                <tr>
+                                    <td name="u1r4f1"></td>
+                                    <td name="u1r4f2"></td>
+                                    <td name="u1r4f3"></td>
+                                    <td name="u1r4f4"></td>
+                                    <td name="u1r4f5"></td>
+                                    <td name="u1r4f6"></td>
+                                    <td name="u1r4f7"></td>
+                                    <td name="u1r4f8"></td>
+                                    <td name="u1r4f9"></td>
+                                    <td name="u1r4f10"></td>
+                                    <td name="u1r4f11"></td>                                                                                         
+                                </tr>
+                                <tr>
+                                    <td name="u1r5r1"></td>
+                                    <td name="u1r5f2"></td>
+                                    <td name="u1r5f3"></td>
+                                    <td name="u1r5f4"></td>
+                                    <td name="u1r5f5"></td>
+                                    <td name="u1r5f6"></td>
+                                    <td name="u1r5f7"></td>
+                                    <td name="u1r5f8"></td>
+                                    <td name="u1r5f9"></td>
+                                    <td name="u1r5f10"></td>
+                                    <td name="u1r5f11"></td>               
+                                </tr>                               
+                            </table>
+                        </form>
                     </div>
                 </div>
                 <div class="aquaUnitReadingBox">

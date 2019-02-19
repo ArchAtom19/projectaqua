@@ -255,3 +255,39 @@ footer a:hover{
     cursor: pointer;
 }
 
+.aquaURT{
+    width: 100%;
+    border: 2px rgb(12, 167, 255) solid;
+}
+
+.aquaURT th{
+    position: relative;
+}
+
+.aquaTTHover{
+    border-bottom: 1px dotted black;
+}
+
+.hovertip .aquaUnitTooltip{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: #FFFFAA;
+    padding: 2px;
+    color: black;
+    font-family: Segoe UI, Trebuchet MS, Verdana, Helvetica, Arial, sans-serif, serif;
+    font-size: 9pt;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 18px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.hovertip:hover .aquaUnitTooltip{
+    visibility: visible;
+}
+
