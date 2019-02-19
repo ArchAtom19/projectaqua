@@ -11,8 +11,10 @@
     <?php include("include/logoHeader.php"); ?>
     
     <body>
-
+        
+        <div id="mainArea">
+            <?php include("include/pageFooter.php"); ?>
+        </div>
+       
     </body>
-    
-    <?php include("include/pageFooter.php"); ?>
 </html>

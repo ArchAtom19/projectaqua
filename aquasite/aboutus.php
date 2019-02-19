@@ -51,7 +51,7 @@
             </section>
             
         </div>
+        
+        <?php include("include/pageFooter.php"); ?>
     </body>
-    
-    <?php include("include/pageFooter.php"); ?>
 </html>
