@@ -291,3 +291,135 @@ footer a:hover{
     visibility: visible;
 }
 
+#aquaIndexSlide{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.aquaSlideImage{
+    width: 100%;
+    min-width: 100%;
+}
+
+.aquaIndexSlideCaptionWrapper{
+    float: right;
+    height: 240px;
+    width: 240px;
+    border-radius: 220px;
+    position: relative;
+    bottom: 270px;
+    right: 30px;
+    background-color: rgba(116, 204, 255, 0.5);
+}
+
+.aquaIndexSlideCaption{
+    float: right;
+    background-color: rgb(13, 167, 255);
+    border-radius: 200px;
+    height: 140px;
+    width: 140px;
+    position: relative;
+    bottom: -20px;
+    right: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.aquaCaroCapButton{
+    width: 100px;
+    margin-top: 8px;
+    padding: 2px;
+    border: 2px solid white;
+    background-color: rgb(116, 204, 255);
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.aquaCaroCapButton:hover{
+    background-color: rgb(179, 227, 255);
+}
+
+.aquaCaroCapButton:active{
+    background-color: rgb(0, 129, 204);
+}
+
+.aquaCaroCapButton, .aquaCaroCapButton span{
+    cursor: pointer;
+}
+
+.aquaCaroCapButton:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.aquaCaroAdvance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    font-family: Arial;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 70px;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.caroAdvSymbol{
+    padding-bottom: 8px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(13, 167, 255);
+}
+
+#advancePrevious{
+    background: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.5));
+    float: left;
+    z-index: 1;
+}
+
+#advanceNext{
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.5));
+    float: right;
+    z-index: 1;
+}
+
+.aquaCaroAdvance, .caroAdvSymbol{
+    cursor: pointer;
+}
+
+.aquaCaroAdvance:hover .caroAdvSymbol{
+    color: rgb(116, 204, 255);
+}
+
+.aquaIndexSlide{
+    display: none;
+}
+
+.aquaIndexSlide, .aquaCaroAdvance, #aquaSlideContainer{
+    box-sizing: border-box;
+}
+
+#aquaSlideContainer{
+    max-width: 4160px;
+    display: inline;
+}
+
+@media only screen and (max-width: 800px){
+    #aquaSlideContainer{
+        display: none;
+    }
+}
+
