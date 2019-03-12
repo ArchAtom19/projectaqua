@@ -423,3 +423,29 @@ footer a:hover{
     }
 }
 
+#debugZone{
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    padding: 0;
+}
+
+#debugZone:hover{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background: blue;
+}
+
+
+#debugZone:hover #debugButton{
+    display: inline;
+}
+
+#debugButton{
+    display: none;
+}
+
