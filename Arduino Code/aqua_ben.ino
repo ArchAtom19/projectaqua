@@ -203,7 +203,8 @@ void loop() {
     Serial1.print("&pm25=");
     Serial1.print(String(average2_5));
     Serial1.print("&pm10=");
-    Serial1.println(String(average10));
+    Serial1.print(String(average10));
+    Serial1.println("\"");
     
     delay(2000);
     toSerial();
