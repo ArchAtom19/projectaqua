@@ -1,5 +1,5 @@
 # Contributing Code to Project AQUA
-Please read this guide befor euploading code to the Project AQUA repository.
+Please read this guide before uploading code to the Project AQUA repository.
 
 ## Uploading Arduino Code
 When uploading Arduino code to the GitHub repository, **please ensure that any untested code is committed via a pull request.** This gives me (and everyone else) a chance to review the code and check for any bugs, errors, or other potential issues before committing the code to the master branch.
