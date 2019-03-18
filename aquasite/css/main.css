@@ -408,6 +408,10 @@ footer a:hover{
     display: none;
 }
 
+.aquaIndexSlide_active{
+    display: block;
+}
+
 .aquaIndexSlide, .aquaCaroAdvance, #aquaSlideContainer{
     box-sizing: border-box;
 }
@@ -447,5 +451,28 @@ footer a:hover{
 
 #debugButton{
     display: none;
+}
+
+
+#aquaCarouselDotsContainer{
+    display: inline-block;
+}
+
+.aquaSlidePick{
+    margin: 7px;
+    border: 2px solid white;
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: transparent;
+}
+
+.aquaSlidePick_active{
+    margin: 7px;
+    border: 2px solid white;
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background-color: rgb(13, 167, 255);
 }
 
