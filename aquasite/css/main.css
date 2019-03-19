@@ -455,7 +455,9 @@ footer a:hover{
 
 
 #aquaCarouselDotsContainer{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 .aquaSlidePick{
@@ -476,3 +478,10 @@ footer a:hover{
     background-color: rgb(13, 167, 255);
 }
 
+.aquaSlidePick, .aquaSlidePick_active{
+    cursor: pointer;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}

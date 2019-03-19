@@ -20,7 +20,7 @@
         <div id="mainArea">
             <div id="aquaSlideContainer">
                 
-                <div class="aquaIndexSlide">
+                <div class="aquaIndexSlide" id="firstSlide">
                     <img class="aquaSlideImage" src="img/aquaUnitCollege2_crop.jpg" />
                     <div class="aquaIndexSlideCaptionWrapper">
                         <div class="aquaIndexSlideCaption" id="captionCircle1">
@@ -66,17 +66,16 @@
                 
                 <div class="aquaCaroAdvance" id="advancePrevious" onclick="advance(-1)"><span class="caroAdvSymbol">&#x00AB;</span></div>
                 <div class="aquaCaroAdvance" id="advanceNext" onclick="advance(1)"><span class="caroAdvSymbol">&#x00BB;</span></div>
-                
-                <div id="aquaCarouselDotsContainer">
-                    
-                    <div class="aquaSlidePick" name="pick1"></div>
-                    <div class="aquaSlidePick" name="pick2"></div>
-                    <div class="aquaSlidePick" name="pick3"></div>
-                    <div class="aquaSlidePick" name="pick4"></div>
-                    
-                </div>
-                
+                            
             </div>
+            <div id="aquaCarouselDotsContainer">
+                    
+                <div class="aquaSlidePick" id="pick1"></div>
+                <div class="aquaSlidePick" id="pick2"></div>
+                <div class="aquaSlidePick" id="pick3"></div>
+                <div class="aquaSlidePick" id="pick4"></div>
+                    
+             </div>
 
             <?php include("include/pageFooter.php"); ?>
         </div>
