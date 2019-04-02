@@ -18,6 +18,7 @@
             <button id="debugButton" onclick="confirmInfo()">CONFIRM INFO</button>
         </div>
         <div id="mainArea">
+            
             <div id="aquaSlideContainer">
                 
                 <div class="aquaIndexSlide" id="firstSlide">
@@ -32,7 +33,7 @@
                 </div>
                 
                 <div class="aquaIndexSlide">
-                    <img class="aquaSlideImage" src="img/aquaUnitCollege2_crop.jpg" />
+                    <img class="aquaSlideImage" src="img/draxPS_noiseFilteredCropped.jpg" />
                     <div class="aquaIndexSlideCaptionWrapper">
                         <div class="aquaIndexSlideCaption" id="captionCircle1">
                             Slide 2
@@ -43,7 +44,7 @@
                 </div>
                 
                 <div class="aquaIndexSlide">
-                    <img class="aquaSlideImage" src="img/aquaUnitCollege2_crop.jpg" />
+                    <img class="aquaSlideImage" src="img/aquaUnitCollege1.jpg" />
                     <div class="aquaIndexSlideCaptionWrapper">
                         <div class="aquaIndexSlideCaption" id="captionCircle1">
                             Slide 3
@@ -63,10 +64,10 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="aquaCaroAdvance" id="advancePrevious" onclick="advance(-1)"><span class="caroAdvSymbol">&#x00AB;</span></div>
                 <div class="aquaCaroAdvance" id="advanceNext" onclick="advance(1)"><span class="caroAdvSymbol">&#x00BB;</span></div>
-                            
+          
             </div>
             <div id="aquaCarouselDotsContainer">
                     
@@ -76,7 +77,9 @@
                 <div class="aquaSlidePick" id="pick4"></div>
                     
              </div>
-
+                
+            <script src="js/carousel.js"></script>
+            
             <?php include("include/pageFooter.php"); ?>
         </div>
     </body>

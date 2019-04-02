@@ -309,7 +309,7 @@ footer a:hover{
     border-radius: 220px;
     position: relative;
     bottom: 270px;
-    right: 30px;
+    right: 50px;
     background-color: rgba(116, 204, 255, 0.5);
 }
 
@@ -376,6 +376,7 @@ footer a:hover{
     -ms-user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
+    position: absolute;
 }
 
 .caroAdvSymbol{
@@ -386,14 +387,16 @@ footer a:hover{
 
 #advancePrevious{
     background: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.5));
-    float: left;
-    z-index: 1;
+    position: inherit;
+    left: 0;
+    z-index: 2;
 }
 
 #advanceNext{
     background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.5));
-    float: right;
-    z-index: 1;
+    position: inherit;
+    right: 0;
+    z-index: 2;
 }
 
 .aquaCaroAdvance, .caroAdvSymbol{
@@ -417,8 +420,12 @@ footer a:hover{
 }
 
 #aquaSlideContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     max-width: 4160px;
-    display: inline;
+    display: block;
+    background-color: black;
 }
 
 @media only screen and (max-width: 800px){
@@ -458,6 +465,7 @@ footer a:hover{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    width: 100%;
 }
 
 .aquaSlidePick{
