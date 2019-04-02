@@ -7,7 +7,7 @@
         <meta name="description" content="Welcome to PROJECT AQUA.">
         <link rel="stylesheet" href="css/main.css">
         <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-        <script src="js/carousel.js"></script>
+        
         <script src="js/indexConfirmAccessDebug.js"></script>
     </head>
     
@@ -18,10 +18,11 @@
             <button id="debugButton" onclick="confirmInfo()">CONFIRM INFO</button>
         </div>
         <div id="mainArea">
+            
             <div id="aquaSlideContainer">
                 
                 <div class="aquaIndexSlide" id="firstSlide">
-                    <img class="aquaSlideImage" src="img/aquaUnitCollege2_crop.jpg" />
+                    <img class="aquaSlideImage" src="img/aquaUnitCollege1.jpg" />
                     <div class="aquaIndexSlideCaptionWrapper">
                         <div class="aquaIndexSlideCaption" id="captionCircle1">
                             Discover how Project AQUA is helping your community.
@@ -43,7 +44,7 @@
                 </div>
                 
                 <div class="aquaIndexSlide">
-                    <img class="aquaSlideImage" src="img/aquaUnitCollege2_crop.jpg" />
+                    <img class="aquaSlideImage" src="img/aquaUnitCollege1.jpg" />
                     <div class="aquaIndexSlideCaptionWrapper">
                         <div class="aquaIndexSlideCaption" id="captionCircle1">
                             Slide 3
@@ -76,7 +77,9 @@
                 <div class="aquaSlidePick" id="pick4"></div>
                     
              </div>
-
+                
+            <script src="js/carousel.js"></script>
+            
             <?php include("include/pageFooter.php"); ?>
         </div>
     </body>
