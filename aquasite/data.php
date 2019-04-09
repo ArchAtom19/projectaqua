@@ -10,6 +10,7 @@
     </head>
     
     <?php include("include/logoHeader.php"); ?>
+    <?php include("include/mysqlImplement.php"); ?>
     
     <body>
         

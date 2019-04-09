@@ -98,11 +98,11 @@ header{
     max-width: 558px;
 }
 
-@media only screen and (max-width: 600px){
+/*@media only screen and (max-width: 600px){
     #aquaLogoText{
         display: none;
     }
-}
+}*/
 
 .aquaPageTitle{
     display: block;
@@ -298,6 +298,9 @@ footer a:hover{
 }
 
 .aquaSlideImage{
+    display:block;
+    margin-left: 0px;
+    margin-right: auto;
     width: 100%;
     min-width: 100%;
 }
@@ -387,16 +390,14 @@ footer a:hover{
 
 #advancePrevious{
     background: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.5));
-    position: inherit;
-    left: 0;
-    z-index: 2;
+    position: inline;
+    z-index: 9999;
 }
 
 #advanceNext{
     background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.5));
-    position: inherit;
-    right: 0;
-    z-index: 2;
+    position: inline;
+    z-index: 9999;
 }
 
 .aquaCaroAdvance, .caroAdvSymbol{
@@ -425,7 +426,7 @@ footer a:hover{
     width: 100%;
     max-width: 4160px;
     display: block;
-    background-color: black;
+    background-color: rgb(13, 167, 255);
 }
 
 @media only screen and (max-width: 800px){
@@ -492,4 +493,10 @@ footer a:hover{
     -ms-user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
+}
+
+#aquaCaroAdvanceContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }

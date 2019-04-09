@@ -64,9 +64,11 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="aquaCaroAdvance" id="advancePrevious" onclick="advance(-1)"><span class="caroAdvSymbol">&#x00AB;</span></div>
-                <div class="aquaCaroAdvance" id="advanceNext" onclick="advance(1)"><span class="caroAdvSymbol">&#x00BB;</span></div>
+                
+                <div id="aquaCaroAdvanceContainer">
+                    <div class="aquaCaroAdvance" id="advancePrevious" onclick="advance(-1)"><span class="caroAdvSymbol">&#x00AB;</span></div>
+                    <div class="aquaCaroAdvance" id="advanceNext" onclick="advance(1)"><span class="caroAdvSymbol">&#x00BB;</span></div>
+                </div>
           
             </div>
             <div id="aquaCarouselDotsContainer">
